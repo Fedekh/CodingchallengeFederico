@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>ScooterLim</title>
+  </head>
+  <body>
+  <!-- il contenitore dovrebbe rappresentare il rettangolo centrale trasparente che racchiude il tutto -->
+    <div class="contenitore">
+      <!-- il sottocontenitore racchiude header e nav -->
+      <div class="sottocontenitore">
+        <header>
+          <!-- Inserimento Logo e sigla -->
+          <img id="logo" src="logo.png" alt="">
+        </header>
+        <nav>
+          <!-- Inserimento sottotitolo facente riferimento al tag semantico del navigatore -->
+          <h1 class="title">Taking Boolean from A to B</h1>
+          <div class="info">
+            <button type="button" name="prenotazione">Prenota</button>
+            <button type="button" name="termina">Termina Prenotazione</button>
+            <button type="button" name="luci">Accendi Luci</button>
+          </div>
+        </nav>
+      </div>
+
+      <section>
+        <!-- Divido i 3 macrogruppi di monopattini in div class mono 1, 2 e 3-->
+          <!-- gruppo div riguardante il monopattino 1 -->
+            <!-- Ho ritenuto meno imbrattante usare br per mandare a capo le varie caratteristiche -->
+        <div class="mono1">
+          <input type="checkbox">
+          <span class="mono">Monopattino Gino22</span> <br>
+          <span class="indirizzo">&#10236; Via Guadalametri - a 220 metri da te </span> <br>
+          <span class="statocarica"> Stato carica:</span> <br>
+          <div id="barracarica1"></div>
+        </div>
+          <!-- gruppo div riguardante il monopattino 2 -->
+        <div class="mono2">
+          <input type="checkbox">
+          <span class="mono">Monopattino Mike24</span> <br>
+          <span class="indirizzo">&#10236; Via Ricciardoni - a 420 metri da te </span><br>
+          <span class="statocarica">Stato carica:</span><br>
+          <div id="barracarica2"></div>
+        </div>
+          <!-- gruppo div riguardante il monopattino 3 -->
+        <div class="mono3">
+          <input type="checkbox">
+          <span class="mono">Monopattino Fede154</span> <br>
+          <span class="indirizzo">&#10236; Via Mentarini - a 490 metri da te </span> <br>
+          <span class="statocarica">Stato carica:</span> <br>
+          <div id="barracarica3"></div>
+        </div>
+      </section>
+      <footer></footer>  <!-- Il footer è volontariamente lasciato vuoto, sia per facilitare l'inserimento dei vari margini e sia per ogni eventuale modifica futura-->
+    </div>
+  </body>
+</html>

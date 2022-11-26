@@ -1,0 +1,98 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.contenitore{
+  border-radius: 10px;
+  width: 1100px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* usando questa strategia si fa in modo che tale attributo non ricada anche sui figli, altrimenti anche loro sarebbero trasparenti con opacity */
+}
+
+ .sottocontenitore{
+   padding-top: 100px;
+
+ }
+
+/* Non sono riuscito a centrare il logo se non usando l'escamotage del margin left */
+#logo{
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 400px;
+
+}
+
+.title{
+  color: #39ff14;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 0px;
+  opacity: 1;
+}
+
+.info{
+  background-color: #39ff14;
+  padding: 10px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+/* Do alcune propieta identiche a dei tag appartenenti alla stessa class */
+.mono1, .mono2, .mono3{
+  margin-top: 20px;
+  color: white;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+
+.mono{
+  font-size: 28px;
+}
+
+.indirizzo{
+  font-size: 20px;
+}
+
+.statocarica{
+  font-size: 18px;
+}
+
+
+/* Ho ritenuto opportuno, benche si allunga un po il codice, raggruppare questo attributo comune a 3 elementi */
+#barracarica1, #barracarica2, #barracarica3{
+  display: inline-block;
+}
+
+
+#barracarica1{
+  width: 350px;
+  height: 30px;
+  background-color: #FFD580;
+
+}
+
+#barracarica2{
+  width: 600px;
+  height: 30px;
+  background-color: #00ea38;
+
+}
+
+#barracarica3{
+  width: 160px;
+  height: 30px;
+  background-color: #b32428;
+
+}
+
+footer{
+  margin-top: 10px;
+  margin-bottom: 70px;
+  display: inline-block;
+}
